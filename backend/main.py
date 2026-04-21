@@ -6,8 +6,8 @@ from backend.routes.copilot import router as copilot_router
 
 app = FastAPI(
     title="AI Telemetry Copilot",
-    version="0.1.0",
-    description="Telemetry monitoring platform with anomaly detection and optional Azure OpenAI integration."
+    description="AI-enhanced telemetry monitoring platform for anomaly detection and engineering insights.",
+    version="0.1.0"
 )
 
 app.include_router(health_router, prefix="/health", tags=["Health"])

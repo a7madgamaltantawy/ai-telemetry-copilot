@@ -9,3 +9,5 @@ python-dotenv
 langchain
 langchain-openai
 openai
+openai>=1.0.0
+requests
