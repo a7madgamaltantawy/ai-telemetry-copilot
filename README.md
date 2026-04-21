@@ -1,8 +1,10 @@
-# AI Telemetry Copilot (Work in Progress)
+# AI Telemetry Copilot
 
 A telemetry monitoring platform that processes engineering sensor data, detects anomalies, and exposes results through APIs and a simple dashboard.
 
 This project is being developed as a step toward integrating AI and LLM capabilities into engineering data systems.
+
+---
 
 ## Current Features
 
@@ -12,6 +14,8 @@ This project is being developed as a step toward integrating AI and LLM capabili
 - Streamlit dashboard for basic data visualization
 - Modular architecture ready for AI/LLM integration
 
+---
+
 ## Tech Stack
 
 - Python
@@ -20,7 +24,13 @@ This project is being developed as a step toward integrating AI and LLM capabili
 - Scikit-learn
 - Streamlit
 
+---
+
 ## Project Structure
+
+
+
+---
 
 ## How to Run the Project
 
@@ -30,48 +40,31 @@ This project is being developed as a step toward integrating AI and LLM capabili
 git clone https://github.com/YOUR_USERNAME/ai-telemetry-copilot.git
 cd ai-telemetry-copilot
 
-###   2. Create virtual environment
+### 2. Create a virtual environment
 
 python -m venv .venv
 source .venv/bin/activate   # macOS/Linux
 # .venv\Scripts\activate    # Windows
-### 3.   istall dependencies
+
+###  3. Install dependencies
 
 pip install -r requirements.txt
 
-
-4. Add sample data
-
-Make sure you have a CSV file at:
+###  4. Add sample data
 
 data/processed/telemetry_processed.csv
 
-5. Run FastAPI backend
+###  5. Run the FastAPI backend
+
 uvicorn backend.main:app --reload
 
-Open in browser:
+### 6. Run the Streamlit dashboard
 
 http://127.0.0.1:8000/docs
 
-6. Run Streamlit dashboard
-
 streamlit run app/streamlit_app.py
 
-Open in browser:
+Then open:
 
 http://localhost:8501
-## Next Steps
 
-- Integrate Azure OpenAI for natural-language anomaly summaries
-- Add LangChain-based orchestration
-- Implement retrieval (RAG) over telemetry metadata and documentation
-- Enhance dashboard with AI-driven insights
-
-
-
-
-
-
-## Status
-
-🚧 Work in progress — AI integration coming next.
