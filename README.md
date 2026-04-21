@@ -93,14 +93,14 @@ flowchart LR
     B --> F[LLM Service]
 
     F --> G[Mock Mode]
-    F --> H[Real LLM Mode<br/>OpenAI / Azure OpenAI]
+    F --> H[Real LLM Mode - OpenAI or Azure OpenAI]
 
     B --> I[REST API Endpoints]
 
-    I --> J[/health]
-    I --> K[/telemetry]
-    I --> L[/anomalies]
-    I --> M[/copilot]
+    I --> J[health]
+    I --> K[telemetry]
+    I --> L[anomalies]
+    I --> M[copilot]
 
     M --> N[Engineering Summary + Stats]
 
