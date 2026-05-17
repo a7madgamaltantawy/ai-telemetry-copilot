@@ -4,7 +4,7 @@ An AI-powered telemetry monitoring system that detects anomalies in engineering 
 
 ---
 
-## 🚀 Overview
+##  Overview
 
 This project simulates a real-world engineering analytics system where telemetry data is:
 
@@ -18,7 +18,7 @@ The system combines **machine learning**, **backend APIs**, **LLM integration**,
 
 ---
 
-## 🧠 Key Features
+## Features
 
 - 📊 Telemetry data ingestion from CSV
 - 🤖 Anomaly detection using Isolation Forest
@@ -31,7 +31,7 @@ The system combines **machine learning**, **backend APIs**, **LLM integration**,
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```mermaid
 flowchart LR
@@ -59,7 +59,7 @@ flowchart LR
 
 ---
 
-## 🔄 Copilot Flow
+##  Copilot Flow
 
 ```mermaid
 sequenceDiagram
@@ -84,7 +84,7 @@ sequenceDiagram
 
 ---
 
-## 📦 Tech Stack
+##  Tech Stack
 
 - **Python**
 - **FastAPI**
@@ -96,7 +96,7 @@ sequenceDiagram
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 backend/
@@ -115,7 +115,7 @@ docs/
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 ### 1. Clone repo
 ```bash
@@ -146,7 +146,7 @@ python -m streamlit run app/streamlit_app.py
 
 ---
 
-## 💬 Example Questions
+##  Example Questions
 
 - What does sensor_3 represent?
 - Explain anomaly detection method
@@ -155,7 +155,7 @@ python -m streamlit run app/streamlit_app.py
 
 ---
 
-## 🧠 RAG (Retrieval-Augmented Generation)
+##  RAG (Retrieval-Augmented Generation)
 
 The system enhances responses by retrieving domain-specific knowledge from:
 
@@ -171,7 +171,7 @@ This allows the copilot to:
 
 ---
 
-## ⚙️ LLM Modes
+##  LLM Modes
 
 The system supports two modes:
 
@@ -189,13 +189,7 @@ OPENAI_API_KEY=your_key
 
 ---
 
-## 📸 UI Preview
-
-*(Add screenshots here later)*
-
----
-
-## 🚧 Future Improvements
+##  Future Improvements
 
 - Vector-based retrieval (FAISS / embeddings)
 - Time-series anomaly detection
@@ -205,7 +199,7 @@ OPENAI_API_KEY=your_key
 
 ---
 
-## 🎯 Why This Project Matters
+##  What is New!
 
 This project demonstrates:
 
@@ -219,7 +213,7 @@ It reflects how modern **AI-powered engineering systems** are built.
 
 ---
 
-## 📌 Status
+## App Status
 
 ✅ Fully functional  
 🚀 AI + RAG system complete  
