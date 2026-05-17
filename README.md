@@ -20,14 +20,14 @@ The system combines **machine learning**, **backend APIs**, **LLM integration**,
 
 ## Features
 
-- 📊 Telemetry data ingestion from CSV
-- 🤖 Anomaly detection using Isolation Forest
-- ⚡ FastAPI backend with structured endpoints
-- 🧩 Modular service architecture
-- 🧠 LLM integration (mock + real-ready)
-- 📚 Retrieval-Augmented Generation (RAG)
-- 💬 Chat-style AI copilot interface (Streamlit)
-- 📈 Sensor visualization dashboard
+-  Telemetry data ingestion from CSV
+-  Anomaly detection using Isolation Forest
+-  FastAPI backend with structured endpoints
+-  Modular service architecture
+-  LLM integration (mock + real-ready)
+-  Retrieval-Augmented Generation (RAG)
+-  Chat-style AI copilot interface (Streamlit)
+-  Sensor visualization dashboard
 
 ---
 
