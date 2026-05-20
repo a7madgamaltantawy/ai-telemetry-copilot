@@ -215,5 +215,5 @@ It reflects how modern **AI-powered engineering systems** are built.
 
 ## App Status
 
-✅ Fully functional  
-🚀 AI + RAG system complete  
+ Fully functional  
+ AI + RAG system complete  
